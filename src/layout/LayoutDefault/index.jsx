@@ -7,7 +7,6 @@ function LayoutDefault() {
       <div className="layout-default">
         <header className="layout-default__header">
           <div className="layout-default__logo">Quiz</div>
-
           <div className="menu">
             <ul>
               <li>
@@ -20,6 +19,10 @@ function LayoutDefault() {
                 <NavLink to="/answers">Answers</NavLink>
               </li>
             </ul>
+          </div>
+          <div className="layout-default__account">
+            <NavLink to="/login">Đăng Nhập</NavLink>
+            <NavLink to="/register">Đăng Ký</NavLink>
           </div>
         </header>
         <main className="layout-default__main">
