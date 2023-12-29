@@ -1,0 +1,449 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Nguyễn Văn A",
+      "email": "nguyenvana@example.com",
+      "password": "hashed_password",
+      "token": "user_token_123"
+    },
+    {
+      "id": 2,
+      "fullName": "Trần Thị B",
+      "email": "tranthib@example.com",
+      "password": "hashed_password",
+      "token": "user_token_456"
+    },
+    {
+      "id": 3,
+      "fullName": "Lê Văn C",
+      "email": "levanc@example.com",
+      "password": "hashed_password",
+      "token": "user_token_789"
+    }
+  ],
+  "topics": [
+    {
+      "id": 1,
+      "name": "Toán học"
+    },
+    {
+      "id": 2,
+      "name": "Khoa học máy tính"
+    },
+    {
+      "id": 3,
+      "name": "Ngôn ngữ lập trình"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "topicId": 1,
+      "question": "Tính tổng của 2 và 3 là bao nhiêu?",
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 2,
+      "topicId": 2,
+      "question": "HTML là viết tắt của từ gì?",
+      "answers": [
+        "Hyper Text Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Tool Markup Language"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 3,
+      "topicId": 3,
+      "question": "JavaScript thuộc ngôn ngữ lập trình nào?",
+      "answers": [
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 4,
+      "topicId": 1,
+      "question": "Bình có 3 quả táo, Minh có 4 quả táo. Tổng cộng bao nhiêu quả táo?",
+      "answers": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 5,
+      "topicId": 1,
+      "question": "Một ngôi nhà có 5 cửa, mỗi cửa có 2 cánh. Tính tổng số cánh cửa của ngôi nhà?",
+      "answers": [
+        "8",
+        "10",
+        "12",
+        "14"
+      ],
+      "correctAnswer": 2
+    },
+    {
+      "id": 6,
+      "topicId": 1,
+      "question": "Nếu 8 là một phần mười của một số, số đó là bao nhiêu?",
+      "answers": [
+        "80",
+        "88",
+        "800",
+        "808"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 7,
+      "topicId": 1,
+      "question": "Có bao nhiêu phút trong một giờ?",
+      "answers": [
+        "50",
+        "60",
+        "70",
+        "80"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 8,
+      "topicId": 1,
+      "question": "Một cái hộp có 12 bút bi. Nếu bạn lấy đi 3 bút bi, còn lại bao nhiêu?",
+      "answers": [
+        "5",
+        "7",
+        "9",
+        "12"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 9,
+      "topicId": 2,
+      "question": "CPU viết tắt của từ gì?",
+      "answers": [
+        "Central Processing Unit",
+        "Computer Processing Unit",
+        "Central Processor Unit",
+        "Computing Processor Unit"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 10,
+      "topicId": 2,
+      "question": "Địa chỉ IP là gì?",
+      "answers": [
+        "Internet Provider",
+        "Internet Protocol",
+        "Internal Protocol",
+        "Internet Port"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 11,
+      "topicId": 2,
+      "question": "RAM viết tắt của từ gì?",
+      "answers": [
+        "Random Access Memory",
+        "Read Access Memory",
+        "Remote Access Memory",
+        "Run Access Memory"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 12,
+      "topicId": 2,
+      "question": "Công nghệ nào dùng để truyền dữ liệu không dây?",
+      "answers": [
+        "Bluetooth",
+        "USB",
+        "Ethernet",
+        "HDMI"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 13,
+      "topicId": 2,
+      "question": "Hệ điều hành nào phổ biến nhất cho điện thoại di động?",
+      "answers": [
+        "iOS",
+        "Android",
+        "Windows Phone",
+        "Blackberry OS"
+      ],
+      "correctAnswer": 1
+    },
+    {
+      "id": 14,
+      "topicId": 3,
+      "question": "Cú pháp cơ bản của Python thường dùng để đánh dấu khối code là gì?",
+      "answers": [
+        "{} - dấu ngoặc nhọn",
+        "[] - dấu ngoặc vuông",
+        "() - dấu ngoặc tròn",
+        "<> - dấu ngoặc nhọn"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 15,
+      "topicId": 3,
+      "question": "Ngôn ngữ lập trình nào được sử dụng nhiều nhất cho việc phát triển web?",
+      "answers": [
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "correctAnswer": 3
+    },
+    {
+      "id": 16,
+      "topicId": 3,
+      "question": "Thuật ngữ 'DOM' trong lập trình web viết tắt của cụm từ nào?",
+      "answers": [
+        "Document Object Model",
+        "Data Object Model",
+        "Design Object Model",
+        "Development Object Model"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 17,
+      "topicId": 3,
+      "question": "Hàm nào dùng để in ra dữ liệu trong JavaScript?",
+      "answers": [
+        "console.log()",
+        "print()",
+        "display()",
+        "show()"
+      ],
+      "correctAnswer": 0
+    },
+    {
+      "id": 18,
+      "topicId": 3,
+      "question": "Ngôn ngữ lập trình nào sử dụng cú pháp dấu chấm phẩy (;) để kết thúc lệnh?",
+      "answers": [
+        "Python",
+        "JavaScript",
+        "Java",
+        "C++"
+      ],
+      "correctAnswer": 2
+    }
+  ],
+  "answers": [
+    {
+      "id": 1,
+      "userId": 1,
+      "topicId": 1,
+      "answers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "questionId": 1,
+      "answer": 2
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "topicId": 2,
+      "answers": [
+        "Hyper Text Markup Language",
+        "Hyperlinks and Text Markup Language",
+        "Home Tool Markup Language",
+        "Hyper Tool Markup Language"
+      ],
+      "questionId": 2,
+      "answer": 0
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "topicId": 3,
+      "answers": [
+        "Java",
+        "C++",
+        "Python",
+        "JavaScript"
+      ],
+      "questionId": 3,
+      "answer": 3
+    },
+    {
+      "userId": 1,
+      "topicId": 2,
+      "answers": [
+        {
+          "questionId": 2,
+          "answer": 0
+        },
+        {
+          "questionId": 9,
+          "answer": 0
+        },
+        {
+          "questionId": 10,
+          "answer": 1
+        },
+        {
+          "questionId": 11,
+          "answer": 0
+        },
+        {
+          "questionId": 12,
+          "answer": 0
+        },
+        {
+          "questionId": 13,
+          "answer": 1
+        }
+      ],
+      "id": 4
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        }
+      ],
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        }
+      ],
+      "id": 6
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        }
+      ],
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "topicId": 3,
+      "answers": [
+        {
+          "questionId": 3,
+          "answer": 3
+        },
+        {
+          "questionId": 14,
+          "answer": 0
+        },
+        {
+          "questionId": 15,
+          "answer": 3
+        },
+        {
+          "questionId": 16,
+          "answer": 0
+        },
+        {
+          "questionId": 17,
+          "answer": 0
+        },
+        {
+          "questionId": 18,
+          "answer": 3
+        }
+      ],
+      "id": 8
+    }
+  ]
+}
