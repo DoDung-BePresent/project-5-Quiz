@@ -20,6 +20,13 @@
       "email": "levanc@example.com",
       "password": "hashed_password",
       "token": "user_token_789"
+    },
+    {
+      "fullName": "Do Quang Dung",
+      "email": "doquangdung1782004@gmail.com",
+      "password": "12345678",
+      "token": "hVLSniUONz50DHoO8nUl",
+      "id": 4
     }
   ],
   "topics": [
